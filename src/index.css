@@ -1,0 +1,290 @@
+*{
+	box-sizing: border-box;
+	color: white;
+	margin:0px ;
+	padding: 0px ;
+	text-align: center;
+	font-family: "PT Sans";
+	
+}
+button{
+	color:black;
+}
+
+html, body{
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	background-color: #0b0c11 !important;
+}
+.social-links{
+	text-decoration-style: none;
+	text-align:end;
+}
+#logo{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.menu-item{
+	text-align: left;
+	background-color: transparent;
+	width: 100%;
+	height: 50px;
+	border-style: none;
+	font-size:20px;
+	cursor: pointer;
+}
+.nav-links{
+	width: 100%;
+	z-index: 1;
+	position: absolute;
+	top:0px;
+	margin:20px auto;
+	padding:20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.social-links-item{
+	display: inline;
+	margin-left:20px;
+	margin-right:20px;
+}
+.carousel-holder{
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	position: relative;
+	justify-content: center;
+}
+#ope{
+	display: flex;
+}
+#ope1, #ope2{
+	display: none;
+}
+#ope{
+	background-image: url("./images/carousel_real.jpg");
+}
+#ope1{
+	background-image: url("./images/carousel1.jpg");
+}
+#ope2{
+	background-image: url("./images/carousel2.jpg");
+}
+.fade{
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+@keyframes fade{
+	from{
+		opacity: .4;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.carousel-item-holder{
+	width: 30%;
+	text-align:left;
+	margin-left: 50px;
+	z-index: 1;
+}
+
+#carousel-overlay{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background: 
+	linear-gradient(
+		rgba(0,0,0,0.6),
+		rgba(0,0,0,0.6)
+	);
+	display: block;
+	top:0;
+	
+	left:0;
+}
+#carousel-header{
+	font-size: 50px;
+	color:white;
+	font-weight: normal;
+	text-align: left;
+}
+#view-more-btn{
+	text-align: left;
+}
+.it-all-started{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-left: 20px !important;
+	margin-right: 20px !important;
+	margin-top: 40px !important;
+	height: auto;
+}
+#image-holder{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#about-text-header{
+	font-size: 30px;
+	text-align: left;
+	color: #c3c5ce;
+}
+#about-text{
+	text-align: left;
+	color: #c3c5ce;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "PT Sans";
+}
+.about-holder{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+#started-img{
+	width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+#about-contd{
+	color: #c3c5ce;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "PT Sans";
+	text-align: left;
+}
+#create-ingsight-quality{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top:20px;
+}
+.achievements-holder{
+	display: grid;
+	margin-top: 40px !important;
+	margin-bottom: 0px !important;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.scores{
+	font-size: 40px;
+	font-weight: bold;
+	margin:0px !important;
+	padding:0px !important;
+}
+.random-images-holder{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	margin-top: 80px !important;
+	margin-bottom: 0px !important;
+}
+.random-images{
+	width: 100%;
+	}
+.random-images-item{
+		width: 100%;
+		object-fit: contain;
+		height: 500px;
+		object-position: center;
+	}
+	#over-scale{
+		position: relative;
+	}
+	.reasons-holder{
+		margin-top: 10px !important;
+		margin-bottom: 0px !important;
+		display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
+	}
+#reasons-header{
+	font-size: 30px;
+	color: white;
+}
+.reasons-title{
+	color: #c3c5ce;
+}
+.reasons-details{
+	text-align: left;
+	color: #c3c5ce;
+	font-size: 18px;
+}
+#get-in-touch-btn{
+	padding:10px;
+	border-style: none;
+	background-color: transparent;
+	border:1px white solid;
+}
+#get-in-touch-btn:hover{
+background-color: #e57e62;
+border: none;
+}
+#get-in-touch-link{
+	text-decoration-line: none;
+}
+.start-something-new-btn{
+	padding: 5px !important;
+	border:2px white solid;
+	background-color: transparent;
+	height: 50px;
+	margin-top: 10px;
+	width: 200px;
+}
+.start-something-new-btn-link{
+	color:white;
+	text-decoration-line: none;
+	font-weight: bold;
+}
+.start-something-new-btn:hover{
+	background-color: #e57e62;
+	border:none;
+}
+.start-something-new{
+	position: relative;
+	width: 100%;
+	height: 600px;
+	display:flex;
+	margin-top: 40px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: url("./images/carousel1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+#start-something-new-overlay{
+	position: absolute;
+	width:100%;
+	height:100%;
+	background: 
+	linear-gradient(
+		rgba(0,0,0,0.5),
+		rgba(0,0,0,0.5)
+	);
+	display: block;
+	top:0;
+	
+	left:0;
+}
+#start-something-new-item{
+	z-index:1;
+	align-self: center;
+	width: 50%;
+}
+#start-something-new-header{
+	font-size: 50px;
+	margin:0px !important;
+}
+.start-something-new-description{
+	font-size: 18px;
+}

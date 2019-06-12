@@ -1,0 +1,79 @@
+html,body{
+    box-sizing: border-box;
+    padding:5px;
+}
+.dashboard{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.notes-holder{
+    width: 97.6%;
+    min-height: 300px;
+    padding: 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    border-style: none;
+    font-size: 16px;
+}
+.notes-holder-main{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.add-note-holder{
+    border:1px black dashed;
+    display: flex;
+    height: 300px;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+#notes-holder-tool-bar{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding:4px;
+    position: relative;
+    height: 30px;
+}
+#closeBtn{
+   position: absolute;
+   right: 10px;
+}
+.palette-holder{
+    background-color: wheat;
+}
+.palette-holder button{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border-style: none;
+    margin:10px;
+}
+#palette1{
+    background-color: #d3cce3;
+}
+#palette2{
+    background-color: #20e3b2;
+}
+#palette3{
+    background-color: #66cccc;
+}
+#palette4{
+    background-color: #99cc32;
+}

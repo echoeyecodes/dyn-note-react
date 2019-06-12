@@ -1,0 +1,106 @@
+@media only screen and (max-width: 500px){
+    .carousel-holder{
+        background-image: url("./images/carousel1.jpg");
+    }
+    #carousel-header{
+        font-size: 40px;
+    }
+    .it-all-started{
+        display: block;
+    }
+    #create-ingsight-quality{
+       margin-top: 20px;
+    }
+    .random-images{
+        margin: 10px 0px;
+        }
+    .random-images-holder{
+        display: block;
+        height:auto;
+        margin:10px;
+    }
+    .over-scale{
+		position: relative;
+		top:0px;
+	}
+    .reasons-holder{
+        display: block;
+    }
+    .reasons-holder-item{
+        margin-top: 30px;
+    }
+    .social-links{
+        display: none;
+    }
+    .menu-item{
+        display: inline;
+        float: right;
+        width: 50%;
+        position: relative;
+        top:15px;
+        bottom: 0px;
+        text-align: right;
+    }
+    .nav-links{
+        display: block;
+    }
+    #logo{
+        text-align: left;
+        float: left;
+        width: 50%;
+        display: inline;
+    }
+}
+@media only screen and (max-width: 650px){
+    .carousel-holder{
+        background-image: url("./images/carousel1.jpg");
+    }
+    #carousel-header{
+        font-size: 40px;
+    }
+    .it-all-started{
+        display: block;
+    }
+    #create-ingsight-quality{
+       margin-top: 20px;
+    }
+    .random-images{
+        margin: 10px 0px;
+        }
+    .random-images-holder{
+        display: block;
+        height:auto;
+        margin:10px;
+    }
+    .over-scale{
+		position: relative;
+		top:0px;
+	}
+    .reasons-holder{
+        display: block;
+    }
+    .reasons-holder-item{
+        margin-top: 30px;
+    }
+    .social-links{
+        display: none;
+    }
+    .menu-item{
+        display: inline;
+        float: right;
+        width: 50%;
+        position: relative;
+        top:15px;
+        bottom: 0px;
+        text-align: right;
+    }
+    .nav-links{
+        display: block;
+    }
+    #logo{
+        text-align: left;
+        float: left;
+        width: 50%;
+        display: inline;
+    }
+}
